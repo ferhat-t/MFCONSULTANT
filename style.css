@@ -55,7 +55,7 @@ nav .menu {
   font-size: 18px;
   font-weight: 500;
   padding: 8px 15px;
-  border-radius: 5px;
+  border-radius: 100px;
   transition: all 0.3s ease;
 }
 
@@ -65,12 +65,13 @@ nav .menu {
 }
 
 .background {
-  background: url(https://i.pinimg.com/736x/01/49/bf/0149bf3f43afa7d258ec377eb1cc72c1.jpg) no-repeat;
+  background: url(https://i.pinimg.com/736x/61/3f/cf/613fcfb6207d14f74cc2c6d712176342.jpg) no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: fixed;
+  background-attachment: fixed;
 }
 
 .background::before {
@@ -84,7 +85,7 @@ nav .menu {
 .posisi {
   position: absolute;
   top: 52%;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
   width: 100%;
   padding: 0 20px;
@@ -108,13 +109,13 @@ nav .menu {
 }
 
 .posisi .tombol {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .posisi .tombol button {
   height: 55px;
   width: 170px;
-  border-radius: 15px;
+  border-radius: 5px;
   border: none;
   margin: 0 10px;
   border: 2px solid white;
@@ -140,3 +141,42 @@ nav .menu {
   background: white;
   color: black;
 }
+
+.about h1 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 600;
+  position: center;
+}
+
+.about h2 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 600;
+  position: center;
+}
+
+.about p {
+ color: rgb(255, 255, 255);
+}
+
+.about {
+  position: absolute;
+  top: 40%;
+  bottom: 40%;
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.aboutus {
+  background: url(https://i.pinimg.com/736x/7a/18/ff/7a18ffa90686b8509b3383cfefcd6035.jpg) no-repeat;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+

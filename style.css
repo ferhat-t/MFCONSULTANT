@@ -200,8 +200,8 @@ nav .menu {
 
 .ourteam2 {
   position: absolute;
-  top: 15%;
-  bottom: 40%;
+  top: 20%;
+  bottom: 50%;
   width: 100%;
   padding: 0 20px;
   text-align: center;
@@ -218,7 +218,10 @@ nav .menu {
 }
 
 .ourteam table {
-  margin: 0 auto; /* untuk tengah horizontal */
-  text-align: center; /* isi teks tabel rata tengah */
+  margin: 0 auto;
+  text-align: center; 
   border-collapse: collapse;
+  border-spacing: 20px;
+  padding: 20px;
 }
+
